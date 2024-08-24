@@ -26,8 +26,8 @@ const ClientsPage = () => {
             
         </div>
 
-        <Carousel className="border-b border-[#999999] pb-10">
-            <CarouselContent>
+        <Carousel >
+            <CarouselContent className="border-b border-[#999999] pb-10">
                 {Clients.map((items) => (
                     <CarouselItem key={items.id} className="md:basis-1/2 lg:basis-1/3">
                         <div className="bg-[#1a1a1a] rounded-lg flex flex-col gap-8  py-12 px-8 border border-[#262626]">
@@ -46,7 +46,7 @@ const ClientsPage = () => {
                         </div>
                     </CarouselItem>
                 ))}
-            </CarouselContent>
+            </CarouselContent >
 
 
 
