@@ -1,6 +1,6 @@
 import clientImage from '../src/assets/Images/Profile.png'
 
-const Clients = [
+export const Clients = [
     {
         id:1,
         title:"Exceptional Service!",
@@ -33,6 +33,32 @@ const Clients = [
         name:"Wade Warren",
         location:"USA, California",
     }
-]
+];
 
-export default Clients;
+
+export const FaqDetails = [
+    {
+        id:1,
+        title:'How do I search for properties on Estatein?',
+        description:'Learn how to use our user-friendly search tools to find properties that match your criteria.',
+
+    },
+    {
+        id:2,
+        title:'How do I search for properties on Estatein?',
+        description:'Learn how to use our user-friendly search tools to find properties that match your criteria.',
+
+    },
+    {
+        id:3,
+        title:'How do I search for properties on Estatein?',
+        description:'Learn how to use our user-friendly search tools to find properties that match your criteria.',
+
+    },
+    {
+        id:4,
+        title:'How do I search for properties on Estatein?',
+        description:'Learn how to use our user-friendly search tools to find properties that match your criteria.',
+
+    },
+]

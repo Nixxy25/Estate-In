@@ -21,17 +21,17 @@ const HeroPage = () => {
             </div>
 
             <div className='flex gap-4'>
-              <div className='flex flex-col  bg-black rounded-lg px-4 py-4 border border-[#262626] bg-[#1a1a1a] '>
+              <div className='flex flex-col  bg-black rounded-lg px-4 py-4 border border-[#262626] bg-[#1A1A1A] '>
                 <h2 className='font-bold text-2xl'>200+</h2>
                 <h3 className='text-[#999999]'>Happy Customers</h3>
               </div>
 
-              <div className='flex flex-col  bg-black rounded-lg px-4 py-4 border border-[#262626] bg-[#1a1a1a]  '>
+              <div className='flex flex-col  bg-black rounded-lg px-4 py-4 border border-[#262626] bg-[#1A1A1A]  '>
                 <h2 className='font-bold text-2xl'>10k+</h2>
                 <h3 className='text-[#999999]'>Properties For Clients</h3>
               </div> 
               
-              <div  className='flex flex-col  bg-black rounded-lg px-4 py-4 border border-[#262626] bg-[#1a1a1a] '>
+              <div  className='flex flex-col  bg-black rounded-lg px-4 py-4 border border-[#262626] bg-[#1A1A1A] '>
                 <h2 className='font-bold text-2xl'>16+</h2>
                 <h3 className='text-[#999999]'>Years of Experience</h3>
               </div>

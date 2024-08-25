@@ -1,6 +1,6 @@
 import Abstract from "../../assets/Images/Abstract Design.png"
 import Button from "../../UI/Button";
-import Clients from "../../data";
+import { Clients } from "../../data";
 import Stars from '../../assets/Images/stars.svg'
 import {
     Carousel,
@@ -13,7 +13,7 @@ import {
 
 const ClientsPage = () => {
   return (
-    <div className="px-20 py-20 flex flex-col gap-10">
+    <div className="px-20 py-10 flex flex-col gap-10">
         <div className="flex flex-col gap-4">
             <div><img src={Abstract}></img></div>
             <div className="flex  items-center justify-between">
@@ -27,9 +27,9 @@ const ClientsPage = () => {
         </div>
 
         <Carousel >
-            <CarouselContent className="border-b border-[#999999] pb-10">
+            <CarouselContent>
                 {Clients.map((items) => (
-                    <CarouselItem key={items.id} className="md:basis-1/2 lg:basis-1/3">
+                    <CarouselItem key={items.id} className="md:basis-1/2 lg:basis-1/3 border-b border-[#999999] pb-10">
                         <div className="bg-[#1a1a1a] rounded-lg flex flex-col gap-8  py-12 px-8 border border-[#262626]">
                             <div><img src={Stars}></img></div>
                             <div className="space-y-4">
